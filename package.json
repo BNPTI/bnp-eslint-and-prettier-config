@@ -3,9 +3,6 @@
   "version": "0.0.2",
   "description": "Eslint and prettier configs for React projects",
   "main": "index.js",
-  "scripts": {
-    "publish": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "eslint",
     "prettier",
