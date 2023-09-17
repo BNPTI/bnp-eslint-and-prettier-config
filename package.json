@@ -1,6 +1,6 @@
 {
   "name": "bnp-eslint-and-prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint and prettier configs for React projects",
   "main": "index.js",
   "keywords": [
