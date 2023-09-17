@@ -14,8 +14,8 @@ Configs for React only
 
 ```json
 {
-	"extends": "eslint-config-bnp/react"
-	// In NextJs project: "extends": ["next/core-web-vitals", "bnp-eslint-and-prettier-config/react.eslint" ]
+	"extends": "bnp-eslint-and-prettier-config/reactEslint.js"
+	// In NextJs project: "extends": ["next/core-web-vitals", "bnp-eslint-and-prettier-config/reactEslint.js" ]
 }
 ```
 
@@ -23,7 +23,7 @@ Configs for React only
 
 ```js
 module.exports = {
-	...require("bnp-eslint-and-prettier-config/react.prettier"),
+	...require("bnp-eslint-and-prettier-config/reactPrettier"),
 	// Your another configs
 };
 ```
