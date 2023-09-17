@@ -30,5 +30,8 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+	"repository": {
+		"url": "https://github.com/BNPTI/bnp-eslint-and-prettier-config"
+	}
 }
