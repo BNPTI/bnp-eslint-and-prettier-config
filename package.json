@@ -1,0 +1,34 @@
+{
+  "name": "bnp-eslint-and-prettier-config",
+  "version": "0.0.1",
+  "description": "Eslint and prettier configs for React projects",
+  "main": "index.js",
+  "scripts": {
+    "publish": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "linter",
+    "bnp"
+  ],
+  "author": "Alexandre Hideki Siroma",
+  "license": "MIT",
+	"dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0"
+  },
+	"peerDependencies": {
+    "eslint": "^7.23.0 || ^8.0.0",
+    "typescript": ">=3.3.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
